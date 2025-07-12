@@ -1,0 +1,164 @@
+body {
+  background-color: #ffe4ed;
+  font-family: Arial, sans-serif;
+  
+  color: #392b2b;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6464;
+}
+
+p {
+   margin-left: 30px;
+  font-size: 18px;
+}
+h2 {
+    text-align: left;
+  color: #a0522d;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  max-width: 300px;
+  margin: auto;
+  margin-left: 40px;
+}
+
+footer {
+  background-color: #f28585;
+  padding: 20px;
+  color: white;
+  margin-top: 40px;
+}
+.price-table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  background-color: #f2d0d8;
+}
+
+.price-table th,
+.price-table td {
+  border: 2px solid #f2aaaa;
+  padding: 5px;
+  text-align: left;
+}
+
+.price-table th {
+  background-color: #e1466d;
+  color: white;
+}
+.flavor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flavor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #d2691e;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flavor-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.flavor-card p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #a0522d;
+  text-align: center;
+}
+
+
+.bake-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align to left */
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.bake-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 2px solid #f4a460;
+  border-radius: 10px;
+  background-color: #fffaf0;
+  box-shadow: 2px 2px 8px rgba(211, 123, 123, 0.05);
+  width: 100%;
+  max-width: 300px;
+}
+
+.bake-card img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bake-card p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+.price-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.price-card {
+  padding: 12px 20px;
+  background-color: #ffe4e1;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  color: #333;
+  transition: transform 0.2s ease;
+  cursor: default;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+  background-color: #ffd9d2;
+}
+.bake-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  scroll-snap-type: x mandatory;
+}
+.tagline {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  color: #d2691e; /* chocolate color */
+  margin-bottom: 20px;
+}
+
